@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.26);
+  border-radius: 15px;
+  margin: auto;
+  width: 300px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+.container span {
+  height: 70%;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 19%;
+  width: 98%;
+  text-align: center;
+}
+.control {
+  width: 20%;
+}
+
+.row .result {
+  width: 71%;
+}
+
+.row2 .number,
+.row3 .number,
+.row4 .number {
+  width: 20%;
+}
+
+.row5 .number {
+  width: 46%;
+}
+
+.row2 .number,
+.row3 .number,
+.row4 .number,
+.row5 .number,
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.result {
+  text-align: right;
+  line-height: 35px;
+  padding: 5px 5px;
+  font-size: 1.5rem;
+}
+
+.number {
+  background-color: rgb(46, 46, 46);
+}
+
+.control {
+  background-color: rgb(255, 166, 0);
+}
